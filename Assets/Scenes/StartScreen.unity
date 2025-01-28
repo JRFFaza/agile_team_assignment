@@ -523,7 +523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -242.61, y: 0.0000076294}
+  m_AnchoredPosition: {x: -250, y: -18}
   m_SizeDelta: {x: 277.1152, y: 73.6614}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &960827371
@@ -546,11 +546,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "AR ClassVision is an innovative app designed to enhance classroom learning
-    through Augmented Reality. By integrating interactive 3D models and simulations,
-    the app helps you visualize complex concepts and makes learning more engaging
-    and immersive. Our project aims to bring AR technology into education, creating
-    a more dynamic and interactive classroom\_experience."
+  m_text: AR ClassVision is an app that integrates augmented reality to help students
+    with disabilities familiarize themselves with university life. It provides interactive
+    3D models and simulations to help students understand complex concepts, making
+    the transition to university more engaging and accessible. The app aims to make
+    learning more interesting and dynamic.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -615,7 +615,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -514.1663, w: -216.69354}
+  m_margin: {x: 0, y: 0, z: -498.57324, w: -216.69354}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -665,7 +665,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00010681, y: -591.07}
+  m_AnchoredPosition: {x: 23, y: -545}
   m_SizeDelta: {x: 339.64, y: 122.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968193588
