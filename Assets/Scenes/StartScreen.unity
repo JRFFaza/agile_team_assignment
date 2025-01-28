@@ -858,7 +858,7 @@ GameObject:
   - component: {fileID: 1762380320}
   - component: {fileID: 1762380319}
   m_Layer: 5
-  m_Name: info-icon
+  m_Name: InfoButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
