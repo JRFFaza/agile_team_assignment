@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4792535141811886341
+  m_GuidHigh: 6150607263073760948
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5060289408856739784
+      m_GuidHigh: 14759153598037069200
+    m_SerializedTextureGuid:
+      m_GuidLow: 6914196134195575756
+      m_GuidHigh: 13733664032990455818
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: blue-info-icon
+    m_Texture: {fileID: 2800000, guid: 461b3bcc28c05ff40a68f486acc697be, type: 3}
