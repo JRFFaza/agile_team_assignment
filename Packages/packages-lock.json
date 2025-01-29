@@ -46,7 +46,7 @@
     },
     "com.unity.editorcoroutines": {
       "version": "1.0.0",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -218,6 +218,14 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.xr-content.xr-sim-environments": {
+      "version": "file:../ContentPackages\\com.unity.xr-content.xr-sim-environments-2.0.1.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.unity.xr.arfoundation": "6.0.0-pre.3"
+      }
+    },
     "com.unity.xr.arcore": {
       "version": "6.0.5",
       "depth": 0,
@@ -233,7 +241,7 @@
     },
     "com.unity.xr.arfoundation": {
       "version": "6.0.5",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "2.0.0",
