@@ -17,7 +17,7 @@ public class StartButton : MonoBehaviour
 
     public void StartApp()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        //SceneManager.LoadScene("HomeScreen(1)");
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("ARScene");
     }
 }
