@@ -19,5 +19,6 @@ public class StartButton : MonoBehaviour
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         SceneManager.LoadScene("ARScene");
+        //SceneManager.LoadScene("QRScanner");
     }
 }
