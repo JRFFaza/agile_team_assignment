@@ -31,13 +31,23 @@ public class QRCodeScript : MonoBehaviour
         UpdateCameraRender();
     }
 
+    void OnDisable()
+    {
+        if (camTexture != null && camTexture.isPlaying)
+        {
+            camTexture.Stop();
+            Debug.Log("Camera preview stopped.");
+        }
+    }
+
     private void SetUpCamera()
     {
-        WebCamDevice[] devices = WebCamTexture.devices;
+        WebCamDevice [] devices = WebCamTexture.devices;
 
         if (devices.Length == 0)
         {
             camAvailable = false;
+            return;
         }
 
         for (int i = 0; i < devices.Length; i++)
@@ -54,7 +64,7 @@ public class QRCodeScript : MonoBehaviour
 
     private void UpdateCameraRender()
     {
-        if (!camAvailable)
+        if (camAvailable == false)
         {
             return;
         }
@@ -67,7 +77,7 @@ public class QRCodeScript : MonoBehaviour
 
     public void OnClickScanQR()
     {
-
+        Scan();
     }
 
     private void Scan()
@@ -89,7 +99,6 @@ public class QRCodeScript : MonoBehaviour
         catch
         {
             textOutput.text = "Scanning failed";
-            throw;
         }
     }
 }
