@@ -8,19 +8,8 @@ namespace Lean.Touch
 	[AddComponentMenu(LeanTouch.ComponentPathPrefix + "Twist Rotate")]
 	public class LeanTwistRotate : MonoBehaviour
 	{
-        public enum RotationAxis
-        {
-            X, // Rotate around X-axis
-            Y  // Rotate around Y-axis
-        }
-
-        public RotationAxis rotationAxis = RotationAxis.Y; // Default Axis set to Y
-
-        private float axisSwitchThreshold = 10.0f; // Threshold to switch axes
-        private float lastTwist = 0.0f;
-        
 		/// <summary>The method used to find fingers to use with this component. See LeanFingerFilter documentation for more information.</summary>
-        public LeanFingerFilter Use = new LeanFingerFilter(true);
+		public LeanFingerFilter Use = new LeanFingerFilter(true);
 
 		/// <summary>The camera we will be used to calculate relative rotations.
 		/// None/null = MainCamera.</summary>
@@ -73,48 +62,48 @@ namespace Lean.Touch
 
 		protected virtual void Update()
 		{
-            // Get the fingers we want to use
-            var fingers = Use.UpdateAndGetFingers();
+			// Store
+			var oldPosition = transform.localPosition;
+			var oldRotation = transform.localRotation;
 
-            // Calculate the rotation values based on these fingers
-            var twistDegrees = LeanGesture.GetTwistDegrees(fingers);
-       
-            if (twistDegrees != 0.0f)
-            {
-                // Check the direction of the twist (change of direction)
-                if (Mathf.Abs(twistDegrees - lastTwist) > axisSwitchThreshold)
-                {
-                    // Switch axis if the twist direction changes significantly
-                    if (rotationAxis == RotationAxis.X)
-                    {
-                        rotationAxis = RotationAxis.Y; // Switch to Y-axis
-                    }
-                    else
-                    {
-                        rotationAxis = RotationAxis.X; // Switch to X-axis
-                    }
-                }
+			// Get the fingers we want to use
+			var fingers = Use.UpdateAndGetFingers();
 
-                // Store the current twist for future comparison
-                lastTwist = twistDegrees;
+			// Calculate the rotation values based on these fingers
+			var twistDegrees = LeanGesture.GetTwistDegrees(fingers);
 
-                // Rotate based on the selected axis
-                if (transform is RectTransform)
-                {
-                    RotateUI(twistDegrees);
-                }
-                else
-                {
-                    Rotate(twistDegrees);
-                }
-            }
+			if (twistDegrees != 0.0f)
+			{
+				if (relative == true)
+				{
+					var twistScreenCenter = LeanGesture.GetScreenCenter(fingers);
 
-            // Store
-            var oldPosition = transform.localPosition;
-            var oldRotation = transform.localRotation;
+					if (transform is RectTransform)
+					{
+						TranslateUI(twistDegrees, twistScreenCenter);
+						RotateUI(twistDegrees);
+					}
+					else
+					{
+						Translate(twistDegrees, twistScreenCenter);
+						Rotate(twistDegrees);
+					}
+				}
+				else
+				{
+					if (transform is RectTransform)
+					{
+						RotateUI(twistDegrees);
+					}
+					else
+					{
+						Rotate(twistDegrees);
+					}
+				}
+			}
 
-            // Increment
-            remainingTranslation += transform.localPosition - oldPosition;
+			// Increment
+			remainingTranslation += transform.localPosition - oldPosition;
 			remainingRotation    *= Quaternion.Inverse(oldRotation) * transform.localRotation;
 
 			// Get t value
@@ -194,17 +183,8 @@ namespace Lean.Touch
 
 		protected virtual void RotateUI(float twistDegrees)
 		{
-            //transform.rotation *= Quaternion.Euler(0.0f, 0.0f, twistDegrees);
-
-            if (rotationAxis == rotationAxis.X)
-            {
-                transform.rotation *= Quaternion.Euler(twistDegrees, 0.0f, 0.0f); // Rotate only along X-axis
-            }
-            else if (rotationAxis == rotationAxis.Y)
-            {
-                transform.rotation *= Quaternion.Euler(0.0f, twistDegrees, 0.0f); // Rotate only along Y-axis
-            }
-        }
+			transform.rotation *= Quaternion.Euler(0.0f, 0.0f, twistDegrees);
+		}
 
 		protected virtual void Rotate(float twistDegrees)
 		{
@@ -213,21 +193,9 @@ namespace Lean.Touch
 
 			if (camera != null)
 			{
-                Vector3 rotationAxisVector = Vector3.zero;
+				var axis = transform.InverseTransformDirection(camera.transform.forward);
 
-                // Smoothly switch between X and Y axis
-                if (RotatinAxis == RotationAxis.X)
-                {
-                    rotationAxisVector = transform.right; // X axis (local space)
-                }
-                else if (RotationAxis == RotationAxis.Y)
-                {
-                    RotatinAxisVector = transform.up; // Y axis (local space)
-                }
-
-                //var axis = transform.InverseTransformDirection(camera.transform.forward);
-                
-				transform.rotation *= Quaternion.AngleAxis(twistDegrees, rotationAxisVector);
+				transform.rotation *= Quaternion.AngleAxis(twistDegrees, axis);
 			}
 			else
 			{
