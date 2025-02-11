@@ -52,7 +52,7 @@ public class QRCodeScript : MonoBehaviour
 
         for (int i = 0; i < devices.Length; i++)
         {
-            if (devices[i].isFrontFacing == false)
+            if (devices[i].isFrontFacing == true)
             {
                 camTexture = new WebCamTexture(devices[i].name, (int)scanningZone.rect.width, (int)scanningZone.rect.height);
             }
@@ -64,14 +64,12 @@ public class QRCodeScript : MonoBehaviour
 
     private void UpdateCameraRender()
     {
-        if (camAvailable == false)
-        {
-            return;
-        }
+        rawIamgeBackground.texture = camTexture;
+
         float ratio = (float)camTexture.width/(float)camTexture.height;
         aspectRatioFitter.aspectRatio = ratio;
 
-        int orientation = -camTexture.videoRotationAngle;
+        int orientation = camTexture.videoRotationAngle;
         rawIamgeBackground.rectTransform.localEulerAngles = new Vector3(0, 0, orientation);
     }
 
@@ -82,8 +80,6 @@ public class QRCodeScript : MonoBehaviour
 
     private void Scan()
     {
-        try
-        {
             IBarcodeReader barcodeReader = new BarcodeReader();
             Result result = barcodeReader.Decode(camTexture.GetPixels32(), camTexture.width, camTexture.height);
             
@@ -95,11 +91,6 @@ public class QRCodeScript : MonoBehaviour
             {
                 textOutput.text = "QR Scanning failed";
             }
-        }
-        catch
-        {
-            textOutput.text = "Scanning failed";
-        }
     }
 }
 
