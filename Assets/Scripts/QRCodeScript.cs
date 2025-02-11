@@ -20,7 +20,7 @@ public class QRCodeScript : MonoBehaviour
     private RectTransform scanningZone;
 
     private bool camAvailable;
-    private WebCamTexture camTexture;
+    private WebCamTexture webcamTexture;
 
     void Start()
     {
@@ -33,9 +33,9 @@ public class QRCodeScript : MonoBehaviour
 
     void OnDisable()
     {
-        if (camTexture != null && camTexture.isPlaying)
+        if (webcamTexture != null && webcamTexture.isPlaying)
         {
-            camTexture.Stop();
+            webcamTexture.Stop();
             Debug.Log("Camera preview stopped.");
         }
     }
@@ -54,22 +54,25 @@ public class QRCodeScript : MonoBehaviour
         {
             if (devices[i].isFrontFacing == true)
             {
-                camTexture = new WebCamTexture(devices[i].name, (int)scanningZone.rect.width, (int)scanningZone.rect.height);
+                webcamTexture = new WebCamTexture(devices[i].name, (int)scanningZone.rect.width, (int)scanningZone.rect.height);
             }
         }
-        camTexture.Play();
-        rawIamgeBackground.texture = camTexture;
         camAvailable = true;
+        rawIamgeBackground.material = new Material(Shader.Find("Unlit/Texture"));
+        rawIamgeBackground.gameObject.SetActive(true);
+        rawIamgeBackground.texture = webcamTexture;
+        rawIamgeBackground.material.mainTexture = webcamTexture;
+        webcamTexture.Play();
     }
 
     private void UpdateCameraRender()
     {
-        rawIamgeBackground.texture = camTexture;
+        rawIamgeBackground.texture = webcamTexture;
 
-        float ratio = (float)camTexture.width/(float)camTexture.height;
+        float ratio = (float)webcamTexture.width/(float)webcamTexture.height;
         aspectRatioFitter.aspectRatio = ratio;
 
-        int orientation = camTexture.videoRotationAngle;
+        int orientation = webcamTexture.videoRotationAngle;
         rawIamgeBackground.rectTransform.localEulerAngles = new Vector3(0, 0, orientation);
     }
 
@@ -81,7 +84,7 @@ public class QRCodeScript : MonoBehaviour
     private void Scan()
     {
             IBarcodeReader barcodeReader = new BarcodeReader();
-            Result result = barcodeReader.Decode(camTexture.GetPixels32(), camTexture.width, camTexture.height);
+            Result result = barcodeReader.Decode(webcamTexture.GetPixels32(), webcamTexture.width, webcamTexture.height);
             
             if (result != null)
             {
