@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using ZXing;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Android;
 
 public class QRCodeScript : MonoBehaviour
 {
@@ -24,6 +25,12 @@ public class QRCodeScript : MonoBehaviour
 
     void Start()
     {
+
+        if (!Permission.HasUserAuthorizedPermission(Permission.Camera))
+        {
+            Permission.RequestUserPermission(Permission.Camera);
+        }
+
         SetUpCamera();
     }
     void Update()
