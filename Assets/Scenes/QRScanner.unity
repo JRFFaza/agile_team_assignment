@@ -152,6 +152,8 @@ MonoBehaviour:
   aspectRatioFitter: {fileID: 1912123823}
   textOutput: {fileID: 266339450}
   scanningZone: {fileID: 429587478}
+  camAvailable: 0
+  webcamTexture: {fileID: 0}
 --- !u!4 &96952666
 Transform:
   m_ObjectHideFlags: 0
