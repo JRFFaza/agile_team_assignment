@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 96952666}
   - component: {fileID: 96952665}
+  - component: {fileID: 96952667}
   m_Layer: 0
   m_Name: QRCodeReader
   m_TagString: Untagged
@@ -148,12 +149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eebd4b60576f6142b4be843dc87fa90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rawIamgeBackground: {fileID: 1912123824}
-  aspectRatioFitter: {fileID: 1912123823}
-  textOutput: {fileID: 266339450}
-  scanningZone: {fileID: 429587478}
-  camAvailable: 0
-  webcamTexture: {fileID: 0}
 --- !u!4 &96952666
 Transform:
   m_ObjectHideFlags: 0
@@ -169,6 +164,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &96952667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96952664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48371ffe1b7281f4b80f5e6d2cf6ac18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rawImageBackground: {fileID: 1912123824}
+  _aspectRatioFitter: {fileID: 1912123823}
+  _textOut: {fileID: 266339450}
+  _scanZone: {fileID: 2075020848}
 --- !u!1 &266339447
 GameObject:
   m_ObjectHideFlags: 0
