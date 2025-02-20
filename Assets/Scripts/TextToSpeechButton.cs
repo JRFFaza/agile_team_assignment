@@ -14,7 +14,7 @@ public class TextToSpeechButton : MonoBehaviour
         
     }
 
-    void ToggleButton()
+    public void ToggleButton()
     {
 
     }
