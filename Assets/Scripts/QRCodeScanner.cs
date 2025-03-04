@@ -27,11 +27,6 @@ public class QRCodeScanner : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (!Permission.HasUserAuthorizedPermission(Permission.Camera))
-        {
-            Permission.RequestUserPermission(Permission.Camera);
-        }
-
         SetUpCamera();
     }
 
@@ -71,7 +66,7 @@ public class QRCodeScanner : MonoBehaviour
             return;
         }
 
-        float ratio = (float)_cameraTexture.width/(float)_cameraTexture.height;
+        float ratio = (float)_cameraTexture.width / (float)_cameraTexture.height;
         _aspectRatioFitter.aspectRatio = ratio;
 
         int orientation = -_cameraTexture.videoRotationAngle;
