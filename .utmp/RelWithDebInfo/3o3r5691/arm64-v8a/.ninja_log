@@ -1,10 +1,19 @@
 # ninja log v5
+84	1603	7606391179104727	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	910756a432c18e5c
 22	1457	7606391177717527	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	3ad9b97eca753548
+1	1854	7606391181724148	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	deddb04f515df14c
 70	1471	7606391177901736	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	db1abfa671ea2278
+2204	2503	7606391188133493	C:/Users/LENOVO/OneDrive/Desktop/Year 3 - 2024.2025/Semester 2/The Agile Professional/agile_team_assignment/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3o3r5691/obj/arm64-v8a/libgame.so	79089fda12d78ddc
 58	1554	7606391178687913	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	505776d7b936d95f
 46	1558	7606391178746673	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	e90a8b4785cfee61
-84	1603	7606391179104727	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	910756a432c18e5c
-1	1854	7606391181724148	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	deddb04f515df14c
 11	2182	7606391185024483	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	4546128fa7af7d9
 33	2203	7606391185234877	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	87a092c18dea05f5
-2204	2503	7606391188133493	C:/Users/LENOVO/OneDrive/Desktop/Year 3 - 2024.2025/Semester 2/The Agile Professional/agile_team_assignment/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3o3r5691/obj/arm64-v8a/libgame.so	79089fda12d78ddc
+32	875	7627975734719167	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	505776d7b936d95f
+11	882	7627975734754409	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	3ad9b97eca753548
+68	932	7627975735297364	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	e90a8b4785cfee61
+44	954	7627975735508531	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	db1abfa671ea2278
+81	992	7627975735895502	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	910756a432c18e5c
+21	1048	7627975736372907	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	deddb04f515df14c
+55	1419	7627975740176780	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	87a092c18dea05f5
+0	1422	7627975740176780	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	4546128fa7af7d9
+1422	1583	7627975741754990	C:/Users/LENOVO/OneDrive/Desktop/Year 3 - 2024.2025/Semester 2/The Agile Professional/agile_team_assignment/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3o3r5691/obj/arm64-v8a/libgame.so	79089fda12d78ddc
