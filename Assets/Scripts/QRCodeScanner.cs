@@ -71,7 +71,7 @@ public class QRCodeScanner : MonoBehaviour
             return;
         }
 
-        float ratio = (float)_cameraTexture.width/(float)_cameraTexture.height;
+        float ratio = (float)_cameraTexture.width / (float)_cameraTexture.height;
         _aspectRatioFitter.aspectRatio = ratio;
 
         int orientation = -_cameraTexture.videoRotationAngle;
