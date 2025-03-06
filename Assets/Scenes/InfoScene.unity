@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -222, y: 380}
+  m_AnchoredPosition: {x: -222, y: 532}
   m_SizeDelta: {x: 277.1152, y: 73.6614}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &91630509
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Info Header
+  m_text: Instructions
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -585,7 +585,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -222, y: 180}
+  m_AnchoredPosition: {x: -222, y: -208}
   m_SizeDelta: {x: 277.1152, y: 73.6614}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &648917430
@@ -608,9 +608,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Instruction Text
-
-'
+  m_text: "Follow these simple instructions to navigate and interact with the cube.\r\n1.
+    Scan the QR Code:\r\n\u2022 Open the game and scan the QR code with your device\u2019s
+    camera.\r\n\u2022 Once scanned, an interactive cube with information will appear
+    in front of you in the real world.\r\n2. Rotating the Cube:\r\n\u2022 To rotate
+    the cube, place two fingers on the cube and swipe left or right.\r\n3. Moving
+    the Cube:\r\n\u2022 To move the cube around in your AR environment, place one
+    finger on the cube and swipe across the screen.\r\n4. Scaling the Cube:\r\n\u2022
+    To resize the cube, use two fingers to pinch in or pinch out.\n\r\nEnjoy interacting
+    with the AR cube and explore the information from all angles!\r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -637,8 +643,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
