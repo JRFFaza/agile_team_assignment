@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &91630507
+--- !u!1 &19515455
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,23 +127,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 91630508}
-  - component: {fileID: 91630510}
-  - component: {fileID: 91630509}
+  - component: {fileID: 19515456}
+  - component: {fileID: 19515458}
+  - component: {fileID: 19515457}
   m_Layer: 5
-  m_Name: InfoTitle
+  m_Name: InfoTextBold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &91630508
+--- !u!224 &19515456
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 91630507}
+  m_GameObject: {fileID: 19515455}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -153,16 +153,16 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -222, y: 532}
+  m_AnchoredPosition: {x: -215, y: -7}
   m_SizeDelta: {x: 277.1152, y: 73.6614}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &91630509
+--- !u!114 &19515457
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 91630507}
+  m_GameObject: {fileID: 19515455}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Instructions
+  m_text: Follow these simple instructions to navigate and interact with the cube!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -185,8 +185,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291201110
-  m_fontColor: {r: 0.3372549, g: 0.53333336, b: 0.77647066, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -203,13 +203,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -241,19 +241,19 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -63.289932, y: -46.83191, z: -508.2019, w: -216.69354}
+  m_margin: {x: -63.289932, y: -1061.4203, z: -508.2019, w: -216.69354}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &91630510
+--- !u!222 &19515458
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 91630507}
+  m_GameObject: {fileID: 19515455}
   m_CullTransparentMesh: 1
 --- !u!1 &106175635
 GameObject:
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 441637785}
   - component: {fileID: 441637784}
   m_Layer: 5
-  m_Name: LogoImage (1)
+  m_Name: LogoImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -513,7 +513,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18.344, y: 620}
+  m_AnchoredPosition: {x: 22, y: 662}
   m_SizeDelta: {x: 757.803, y: 302.3603}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &441637784
@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 648917431}
   - component: {fileID: 648917430}
   m_Layer: 5
-  m_Name: IntroText
+  m_Name: InfoText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -585,7 +585,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -222, y: -208}
+  m_AnchoredPosition: {x: -282, y: -704}
   m_SizeDelta: {x: 277.1152, y: 73.6614}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &648917430
@@ -608,13 +608,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Follow these simple instructions to navigate and interact with the cube.\r\n1.
-    Scan the QR Code:\r\n\u2022 Open the game and scan the QR code with your device\u2019s
-    camera.\r\n\u2022 Once scanned, an interactive cube with information will appear
-    in front of you in the real world.\r\n2. Rotating the Cube:\r\n\u2022 To rotate
-    the cube, place two fingers on the cube and swipe left or right.\r\n3. Moving
-    the Cube:\r\n\u2022 To move the cube around in your AR environment, place one
-    finger on the cube and swipe across the screen.\r\n4. Scaling the Cube:\r\n\u2022
+  m_text: "\r\n1. Scan the QR Code:\r\n\u2022 Open the game and scan the QR code
+    with your camera.\r\n\u2022 Once scanned, an interactive cube with information
+    will appear in front of you in the real world.\n\r\n2. Rotating the Cube:\r\n\u2022
+    To rotate the cube, place two fingers on the cube and swipe left or right.\n\r\n3.
+    Moving the Cube:\r\n\u2022 To move the cube around in your AR environment, place
+    one finger on the cube and swipe across the screen.\n\r\n4. Scaling the Cube:\r\n\u2022
     To resize the cube, use two fingers to pinch in or pinch out.\n\r\nEnjoy interacting
     with the AR cube and explore the information from all angles!\r\n\n"
   m_isRightToLeft: 0
@@ -625,8 +624,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291201110
-  m_fontColor: {r: 0.3372549, g: 0.53333336, b: 0.77647066, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -681,7 +680,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -63.289932, y: -46.83191, z: -508.2019, w: -216.69354}
+  m_margin: {x: -63.289932, y: -1061.4203, z: -640.9424, w: -216.69354}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -828,8 +827,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 648917429}
+  - {fileID: 19515456}
   - {fileID: 441637783}
-  - {fileID: 91630508}
   - {fileID: 106175636}
   m_Father: {fileID: 829139395}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
