@@ -8,22 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StartScreen.unity
     guid: a1ef3b72d23bc7c4394501935cd112bb
-  - enabled: 0
-    path: Assets/Scenes/QRScanner.unity
-    guid: 756ca11b83e67f04ab1c843c1babf0d0
-  - enabled: 0
-    path: Assets/Scenes/QRScanner.unity
-    guid: 756ca11b83e67f04ab1c843c1babf0d0
-  - enabled: 0
-    path: Assets/Scenes/ARScene.unity
-    guid: d7440fd71a4648b44ab033edc9a041a4
   - enabled: 1
     path: Assets/Scenes/InfoScene.unity
     guid: 1a5c1303f9042480f85a265bf06ed49d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/ARScene1.unity
     guid: 3e365200a3e4d7a4b9974aa2dc666b92
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/ARScene2.unity
+    guid: 69fdeff0f533032478ea057bc2cabf3b
+  - enabled: 1
+    path: Assets/Scenes/ARScene3.unity
+    guid: ee16e4ced565cbc408be451fe594498a
+  - enabled: 1
     path: Assets/Scenes/ARScene4.unity
     guid: 09440c50faf116a45b6301f3200ceeca
   - enabled: 1

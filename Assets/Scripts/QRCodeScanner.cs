@@ -5,6 +5,7 @@ using ZXing;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.Android;
+using UnityEngine.SceneManagement;
 
 public class QRCodeScanner : MonoBehaviour
 {
@@ -92,6 +93,18 @@ public class QRCodeScanner : MonoBehaviour
             if (result != null)
             {
                 _textOut.text = result.Text;
+                if (result.Text == "ARCVFLOOR1" )
+                {
+                    SceneManager.LoadScene("ARScene4");
+                }
+                else if (result.Text == "ARCVFLOOR-1")
+                {
+                    SceneManager.LoadScene("ARScene2");
+                }
+                else if (result.Text == "ARCVFLOOR0")
+                {
+                    SceneManager.LoadScene("ARScene3");
+                }
             }
             else
             {
