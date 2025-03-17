@@ -95,15 +95,15 @@ public class QRCodeScanner : MonoBehaviour
                 _textOut.text = result.Text;
                 if (result.Text == "ARCVFLOOR1" )
                 {
-                    SceneManager.LoadScene("ARScene4");
+                    SceneManager.LoadScene("ARCVFloor1");
                 }
                 else if (result.Text == "ARCVFLOOR-1")
                 {
-                    SceneManager.LoadScene("ARScene2");
+                    SceneManager.LoadScene("ARCVFloor-1");
                 }
                 else if (result.Text == "ARCVFLOOR0")
                 {
-                    SceneManager.LoadScene("ARScene3");
+                    SceneManager.LoadScene("ARCVFloor0");
                 }
             }
             else
