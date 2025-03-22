@@ -11,7 +11,7 @@ public class BackButton : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("StartScene");
+            SceneManager.LoadScene("StartScreen");
         } 
     }
 }
