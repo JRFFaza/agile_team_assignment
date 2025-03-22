@@ -701,7 +701,7 @@ PrefabInstance:
     - target: {fileID: 138639287841346803, guid: afd01eba6a876de4daf0ab707965c4ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1794341051}
     - target: {fileID: 138639287841346803, guid: afd01eba6a876de4daf0ab707965c4ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -713,6 +713,10 @@ PrefabInstance:
     - target: {fileID: 138639287841346803, guid: afd01eba6a876de4daf0ab707965c4ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: SceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 138639287841346803, guid: afd01eba6a876de4daf0ab707965c4ad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: StartScreen
       objectReference: {fileID: 0}
     - target: {fileID: 138639287841346803, guid: afd01eba6a876de4daf0ab707965c4ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName

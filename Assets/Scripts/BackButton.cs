@@ -5,13 +5,17 @@ public class BackButton : MonoBehaviour
 {
     public void LoadPreviousScene()
     {
-        if(!string.IsNullOrEmpty(SceneHistory.previousScene))
+        Debug.Log("BackButton clicked.");
+        Debug.Log("Stored previousScene: " + SceneHistory.previousScene);
+
+        if (!string.IsNullOrEmpty(SceneHistory.previousScene))
         {
             SceneManager.LoadScene(SceneHistory.previousScene);
         }
         else
         {
+            Debug.LogWarning("Previous scene was empty! Loading StartScreen fallback.");
             SceneManager.LoadScene("StartScreen");
-        } 
+        }
     }
 }
