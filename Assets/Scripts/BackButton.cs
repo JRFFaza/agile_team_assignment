@@ -5,6 +5,13 @@ public class BackButton : MonoBehaviour
 {
     public void LoadPreviousScene()
     {
-        SceneManager.LoadScene("StartScreen"); 
+        if(!string.IsNullOrEmpty(SceneHistory.previousScene))
+        {
+            SceneManager.LoadScene(SceneHistory.previousScene);
+        }
+        else
+        {
+            SceneManager.LoadScene("StartScene");
+        } 
     }
 }
