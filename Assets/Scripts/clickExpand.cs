@@ -8,11 +8,14 @@ public class clickExpand : MonoBehaviour
 
     [SerializeField]
     public TextMeshProUGUI textOut;
+
+    [SerializeField]
+    public TextMeshProUGUI textIn;
     public void OpenPanel()
     {
         if (panelObj != null)
         {
-            textOut.text = "This is scene 3xxxx";
+            textOut.text = textIn.text;
             panelObj.SetActive(true);
         }
     }
