@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class mainmenu : MonoBehaviour
+public class PlayAudio : MonoBehaviour
 {
     public AudioSource audio;
     public void playButton()
