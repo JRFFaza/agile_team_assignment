@@ -1287,7 +1287,7 @@ MonoBehaviour:
   panelObj: {fileID: 1679251776}
   textOut: {fileID: 855335371}
   textIn: {fileID: 1985298760}
-  clipIn: {fileID: 8300000, guid: 4f51807d2a6543e48b69af38e6080b81, type: 3}
+  clipIn: {fileID: 8300000, guid: ebdf21c73778bbf44a04373d2a0b19ee, type: 3}
   clipOut: {fileID: 2138577821}
 --- !u!114 &434510511
 MonoBehaviour:
@@ -1369,7 +1369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31ac256645e5d5843a809301f071d6e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 4f51807d2a6543e48b69af38e6080b81, type: 3}
+  clip: {fileID: 8300000, guid: ebdf21c73778bbf44a04373d2a0b19ee, type: 3}
   source: {fileID: 2138577821}
 --- !u!1 &480909993
 GameObject:

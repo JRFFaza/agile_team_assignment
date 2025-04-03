@@ -783,6 +783,7 @@ GameObject:
   - component: {fileID: 169697289}
   - component: {fileID: 169697294}
   - component: {fileID: 169697293}
+  - component: {fileID: 169697295}
   m_Layer: 5
   m_Name: CanvasWorld4
   m_TagString: Untagged
@@ -889,8 +890,8 @@ MonoBehaviour:
   panelObj: {fileID: 967210844}
   textOut: {fileID: 163633983}
   textIn: {fileID: 48107592}
-  clipIn: {fileID: 0}
-  clipOut: {fileID: 0}
+  clipIn: {fileID: 8300000, guid: 58d9dd854680d9e479ca4fab4a5fc138, type: 3}
+  clipOut: {fileID: 85727757}
 --- !u!114 &169697294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -959,6 +960,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &169697295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169697288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ac256645e5d5843a809301f071d6e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 58d9dd854680d9e479ca4fab4a5fc138, type: 3}
+  source: {fileID: 85727757}
 --- !u!1 &213521050
 GameObject:
   m_ObjectHideFlags: 0
