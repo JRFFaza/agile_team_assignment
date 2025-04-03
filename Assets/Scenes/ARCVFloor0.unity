@@ -297,6 +297,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 844606}
+        m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
+        m_MethodName: Speech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &113063083
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,7 +835,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &232914629
 RectTransform:
   m_ObjectHideFlags: 0
@@ -973,6 +985,7 @@ GameObject:
   - component: {fileID: 291421503}
   - component: {fileID: 291421507}
   - component: {fileID: 291421506}
+  - component: {fileID: 291421508}
   m_Layer: 5
   m_Name: CanvasWorld2
   m_TagString: Untagged
@@ -1137,6 +1150,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 291421508}
+        m_TargetAssemblyTypeName: PlayAudioScenes, Assembly-CSharp
+        m_MethodName: PlaySpeech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &291421508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291421501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ac256645e5d5843a809301f071d6e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 0}
+  source: {fileID: 0}
 --- !u!1 &314061198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,6 +1597,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 438973956}
+        m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
+        m_MethodName: Speech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &447264380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1727,6 +1778,18 @@ MonoBehaviour:
       - m_Target: {fileID: 447264385}
         m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
         m_MethodName: OpenPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 447264385}
+        m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
+        m_MethodName: Speech
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2872,7 +2935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31ac256645e5d5843a809301f071d6e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: bd829c37a8a94ad49a5c42eef26dce74, type: 3}
+  clip: {fileID: 8300000, guid: 6390e11cbab4d00488e84751f7fb4b0b, type: 3}
   source: {fileID: 0}
 --- !u!1 &936059327
 GameObject:
@@ -5053,6 +5116,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1742154970}
+        m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
+        m_MethodName: Speech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1749871808
 GameObject:
   m_ObjectHideFlags: 0
@@ -5619,6 +5694,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1926808007}
         m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
         m_MethodName: OpenPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1926808007}
+        m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
+        m_MethodName: Speech
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -375,6 +375,8 @@ MonoBehaviour:
   panelObj: {fileID: 967210844}
   textOut: {fileID: 163633983}
   textIn: {fileID: 854359442}
+  clipIn: {fileID: 0}
+  clipOut: {fileID: 0}
 --- !u!114 &77785467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,6 +424,18 @@ MonoBehaviour:
       - m_Target: {fileID: 77785466}
         m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
         m_MethodName: OpenPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 77785466}
+        m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
+        m_MethodName: Speech
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -867,6 +881,8 @@ MonoBehaviour:
   panelObj: {fileID: 967210844}
   textOut: {fileID: 163633983}
   textIn: {fileID: 48107592}
+  clipIn: {fileID: 0}
+  clipOut: {fileID: 0}
 --- !u!114 &169697294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -914,6 +930,18 @@ MonoBehaviour:
       - m_Target: {fileID: 169697293}
         m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
         m_MethodName: OpenPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 169697293}
+        m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
+        m_MethodName: Speech
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1737,6 +1765,8 @@ MonoBehaviour:
   panelObj: {fileID: 967210844}
   textOut: {fileID: 163633983}
   textIn: {fileID: 1298802445}
+  clipIn: {fileID: 8300000, guid: 1bdbf74ae5d710040bc20d521cfc9ecd, type: 3}
+  clipOut: {fileID: 0}
 --- !u!114 &385931913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1784,6 +1814,18 @@ MonoBehaviour:
       - m_Target: {fileID: 385931912}
         m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
         m_MethodName: OpenPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 385931912}
+        m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
+        m_MethodName: Speech
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1989,6 +2031,8 @@ MonoBehaviour:
   panelObj: {fileID: 967210844}
   textOut: {fileID: 163633983}
   textIn: {fileID: 568423846}
+  clipIn: {fileID: 8300000, guid: 5d04e130f397424438880891b2ba15f3, type: 3}
+  clipOut: {fileID: 0}
 --- !u!114 &494289136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2036,6 +2080,18 @@ MonoBehaviour:
       - m_Target: {fileID: 494289135}
         m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
         m_MethodName: OpenPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 494289135}
+        m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
+        m_MethodName: Speech
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3600,6 +3656,8 @@ MonoBehaviour:
   panelObj: {fileID: 967210844}
   textOut: {fileID: 163633983}
   textIn: {fileID: 213521052}
+  clipIn: {fileID: 0}
+  clipOut: {fileID: 0}
 --- !u!114 &965886434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3651,6 +3709,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 965886433}
+        m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
+        m_MethodName: Speech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3854,6 +3924,8 @@ MonoBehaviour:
   panelObj: {fileID: 967210844}
   textOut: {fileID: 163633983}
   textIn: {fileID: 1735929913}
+  clipIn: {fileID: 0}
+  clipOut: {fileID: 0}
 --- !u!114 &1040383283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3905,6 +3977,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1040383282}
+        m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
+        m_MethodName: Speech
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4417,6 +4501,8 @@ MonoBehaviour:
   panelObj: {fileID: 967210844}
   textOut: {fileID: 163633983}
   textIn: {fileID: 2098435680}
+  clipIn: {fileID: 8300000, guid: aca3c9764fc41d04582bf576222c1373, type: 3}
+  clipOut: {fileID: 0}
 --- !u!114 &1243884126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4464,6 +4550,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1243884125}
         m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
         m_MethodName: OpenPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1243884125}
+        m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
+        m_MethodName: Speech
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5000,6 +5098,8 @@ MonoBehaviour:
   panelObj: {fileID: 967210844}
   textOut: {fileID: 163633983}
   textIn: {fileID: 1797582276}
+  clipIn: {fileID: 8300000, guid: b675c2dc5d155774e840b649eeac0556, type: 3}
+  clipOut: {fileID: 0}
 --- !u!114 &1653752183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5047,6 +5147,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1653752182}
         m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
         m_MethodName: OpenPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1653752182}
+        m_TargetAssemblyTypeName: clickExpand, Assembly-CSharp
+        m_MethodName: Speech
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
