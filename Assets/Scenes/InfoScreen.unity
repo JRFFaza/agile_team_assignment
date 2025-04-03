@@ -445,7 +445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -282, y: -704}
+  m_AnchoredPosition: {x: -282, y: -730}
   m_SizeDelta: {x: 277.1152, y: 73.6614}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &648917430
@@ -468,12 +468,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\r\n1. Scan the QR Code:\r\n\u2022 Open the game and scan the QR code
-    with your camera.\r\n\u2022 Once scanned, an interactive cube with information
-    will appear in front of you in the real world.\r\n\r\n2. Rotating the Cube:\r\n\u2022
-    To rotate the cube, place two fingers on the cube and swipe left or right.\r\n\r\n3.
-    Scaling the Cube\u2019s Text:\r\n\u2022To scale the text on the cube, press on
-    it to expand and activate Text-to-Speech (TTS).\r\n\r\nEnjoy interacting with
+  m_text: "1. Scan the QR Code:\r\n\u2022 Open the game and scan the QR code with
+    your camera.\r\n\u2022 Once scanned, an interactive cube with information will
+    appear in front of you in the real world.\r\n\r\n2. Rotating the Panel:\r\n\u2022
+    To rotate the panel, place two fingers on the cube and swipe left or right.\r\n\r\n3.
+    Scaling the Panel\u2019s Text:\r\n\u2022To scale the text on the panel, press
+    on it to expand and activate Text-to-Speech (TTS).\r\n\r\nEnjoy interacting with
     the AR cube and explore the information from all angles!\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
