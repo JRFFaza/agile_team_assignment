@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 844603}
   - component: {fileID: 844607}
   - component: {fileID: 844606}
+  - component: {fileID: 844608}
   m_Layer: 5
   m_Name: CanvasWorld6
   m_TagString: Untagged
@@ -239,8 +240,8 @@ MonoBehaviour:
   panelObj: {fileID: 232914628}
   textOut: {fileID: 1756227533}
   textIn: {fileID: 1492238436}
-  clipIn: {fileID: 0}
-  clipOut: {fileID: 0}
+  clipIn: {fileID: 8300000, guid: 111a0ef06920b284fa453d70cdbada2a, type: 3}
+  clipOut: {fileID: 693761553}
 --- !u!114 &844607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,6 +310,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &844608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ac256645e5d5843a809301f071d6e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 111a0ef06920b284fa453d70cdbada2a, type: 3}
+  source: {fileID: 693761553}
 --- !u!1 &113063083
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,8 +1108,8 @@ MonoBehaviour:
   panelObj: {fileID: 232914628}
   textOut: {fileID: 1756227533}
   textIn: {fileID: 1231905660}
-  clipIn: {fileID: 0}
-  clipOut: {fileID: 0}
+  clipIn: {fileID: 8300000, guid: 7b79ec4ebcf35cd458152c93597b8d6d, type: 3}
+  clipOut: {fileID: 693761553}
 --- !u!114 &291421507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1175,8 +1190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31ac256645e5d5843a809301f071d6e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  source: {fileID: 0}
+  clip: {fileID: 8300000, guid: 7b79ec4ebcf35cd458152c93597b8d6d, type: 3}
+  source: {fileID: 693761553}
 --- !u!1 &314061198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,6 +1449,7 @@ GameObject:
   - component: {fileID: 438973953}
   - component: {fileID: 438973957}
   - component: {fileID: 438973956}
+  - component: {fileID: 438973958}
   m_Layer: 5
   m_Name: CanvasWorld4
   m_TagString: Untagged
@@ -1540,8 +1556,8 @@ MonoBehaviour:
   panelObj: {fileID: 232914628}
   textOut: {fileID: 1756227533}
   textIn: {fileID: 1388669681}
-  clipIn: {fileID: 0}
-  clipOut: {fileID: 0}
+  clipIn: {fileID: 8300000, guid: 1697bccd2522c2c4a80020e59a6b7cef, type: 3}
+  clipOut: {fileID: 693761553}
 --- !u!114 &438973957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1610,6 +1626,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &438973958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438973951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ac256645e5d5843a809301f071d6e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 1697bccd2522c2c4a80020e59a6b7cef, type: 3}
+  source: {fileID: 693761553}
 --- !u!1 &447264380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1624,6 +1654,7 @@ GameObject:
   - component: {fileID: 447264382}
   - component: {fileID: 447264386}
   - component: {fileID: 447264385}
+  - component: {fileID: 447264387}
   m_Layer: 5
   m_Name: CanvasWorld7
   m_TagString: Untagged
@@ -1730,8 +1761,8 @@ MonoBehaviour:
   panelObj: {fileID: 232914628}
   textOut: {fileID: 1756227533}
   textIn: {fileID: 1058950119}
-  clipIn: {fileID: 0}
-  clipOut: {fileID: 0}
+  clipIn: {fileID: 8300000, guid: fb4459e75f1b691478954a42fcbc662b, type: 3}
+  clipOut: {fileID: 693761553}
 --- !u!114 &447264386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1800,6 +1831,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &447264387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447264380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ac256645e5d5843a809301f071d6e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: fb4459e75f1b691478954a42fcbc662b, type: 3}
+  source: {fileID: 693761553}
 --- !u!1 &499133465
 GameObject:
   m_ObjectHideFlags: 0
@@ -5081,6 +5126,7 @@ GameObject:
   - component: {fileID: 1742154967}
   - component: {fileID: 1742154971}
   - component: {fileID: 1742154970}
+  - component: {fileID: 1742154972}
   m_Layer: 5
   m_Name: CanvasWorld3
   m_TagString: Untagged
@@ -5187,8 +5233,8 @@ MonoBehaviour:
   panelObj: {fileID: 232914628}
   textOut: {fileID: 1756227533}
   textIn: {fileID: 533287475}
-  clipIn: {fileID: 0}
-  clipOut: {fileID: 0}
+  clipIn: {fileID: 8300000, guid: 2898eb1fc9e81124b9db0047cabb1d01, type: 3}
+  clipOut: {fileID: 693761553}
 --- !u!114 &1742154971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5257,6 +5303,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1742154972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742154965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ac256645e5d5843a809301f071d6e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 2898eb1fc9e81124b9db0047cabb1d01, type: 3}
+  source: {fileID: 693761553}
 --- !u!1 &1749871808
 GameObject:
   m_ObjectHideFlags: 0
@@ -5668,6 +5728,7 @@ GameObject:
   - component: {fileID: 1926808004}
   - component: {fileID: 1926808008}
   - component: {fileID: 1926808007}
+  - component: {fileID: 1926808009}
   m_Layer: 5
   m_Name: CanvasWorld5
   m_TagString: Untagged
@@ -5774,8 +5835,8 @@ MonoBehaviour:
   panelObj: {fileID: 232914628}
   textOut: {fileID: 1756227533}
   textIn: {fileID: 758408007}
-  clipIn: {fileID: 0}
-  clipOut: {fileID: 0}
+  clipIn: {fileID: 8300000, guid: eb5ebbe91eaff1045970c855e54d725c, type: 3}
+  clipOut: {fileID: 693761553}
 --- !u!114 &1926808008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5844,6 +5905,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1926808009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926808002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ac256645e5d5843a809301f071d6e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: eb5ebbe91eaff1045970c855e54d725c, type: 3}
+  source: {fileID: 693761553}
 --- !u!1 &1940155486
 GameObject:
   m_ObjectHideFlags: 0
